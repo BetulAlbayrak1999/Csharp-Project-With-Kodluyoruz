@@ -9,7 +9,7 @@ namespace C__pratic
             //Implicit Conversion
             int i = 7;
             float i2 = i;
-            Console.WriteLine("i is from int to float (Implicit Conversion): " + y);
+            Console.WriteLine("i is from int to float (Implicit Conversion): " + i2);
             //Explicit Conversion
             float x = 7.7F;
             int y = Convert.ToInt16(x);
